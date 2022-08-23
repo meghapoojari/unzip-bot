@@ -172,7 +172,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
                         fext = fname.split(".")[-1].casefold()
                         if fext not in extentions_list["archive"]:
                             return await query.message.edit(
-                                "This file is NOT an archive 😐\nIf you believe it's an error, send the file to **@EDM115**"
+                                "This file is NOT an archive 😐\nIf you believe it's an error, report to **@join2bk**"
                             )
                         archive = f"{download_path}/archive_from_{user_id}{fname}"
                         await answer_query(
@@ -213,7 +213,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
                 fext = fname.split(".")[-1].casefold()
                 if fext not in extentions_list["archive"]:
                     return await query.message.edit(
-                        "This file is NOT an archive 😐\nIf you believe it's an error, send the file to **@EDM115**"
+                        "This file is NOT an archive 😐\nIf you believe it's an error, report to **@join2bk**"
                     )
                 if (
                     fnmatch(fext, extentions_list["split"][0])
@@ -238,7 +238,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
             else:
                 await answer_query(
                     query,
-                    "Can't find details 💀 Please contact @EDM115 if it's an error",
+                    "Can't find details 💀 Please contact @join2bk if it's an error",
                     answer_only=True,
                     unzip_client=unzip_bot
                 )
@@ -463,7 +463,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
             )
 
         await query.message.edit(
-            "**Successfully uploaded ✅**\n\n**Join @EDM115bots ❤️**"
+            "**Successfully uploaded ✅**\n\n**Join @BotsByBk ❤️**"
         )
         await log_msg.reply(Messages.HOW_MANY_UPLOADED.format(sent_files))
         await update_uploaded(user_id, upload_count=sent_files)
