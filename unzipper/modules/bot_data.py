@@ -101,11 +101,11 @@ class Buttons:
 
 class Messages:
     START_TEXT = """
-Hi **{}** 👋, I'm **Unarchiver bot** 🥰
+Hi **{}** 👋, I'm **Files Extractor Bot** 🥰
 
 I can extract archives like `zip`, `rar`, `tar`, …
 
-**Made with ❤️ by @EDM115bots**
+**Created ❤️ by @BotsByBk**
     """
     # **This is BETA version !** May be a lot buggy, but with new features. Better waiting for the stable version at daytime… 🙂
 
@@ -128,7 +128,7 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115**
+    Visit me at **@Join2Bk**
     """
 
     ABOUT_TXT = """
@@ -136,10 +136,10 @@ I can extract archives like `zip`, `rar`, `tar`, …
 
 • **Language :** [Python 3.10.6](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.41](https://docs.pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot/tree/beta)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Source code :** [Not available)
+• **Developer :** [Techcrazebk](https://t.me/join2bk)
 
-**Made with ❤️ by @EDM115bots**
+**Created ❤️ by @BotsByBk**
     """
 
     LOG_TXT = """
@@ -181,7 +181,7 @@ Select the extraction mode for that {} 👀
     EXT_CAPTION = """
 `{}`
 
-Successfully extracted by @unzip_edm115bot 🥰
+Successfully extracted by @extractyourfilesBot 🥰
     """
 
     URL_UPLOAD = """
@@ -197,7 +197,7 @@ An error happened for `{}` 😕
 **Error type :** `{}`
 **Error message :** `{}`
 
-Please report this at @EDM115 if you think this is a serious error
+Please report this at @join2bk if you think this is a serious error
     """
 
     LOG_CAPTION = """
@@ -230,7 +230,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you couldn’t send any other task 🙂🔫 (may be fixed in the future)
 
-Please report this at @EDM115 if you think this is a serious error
+Please report this at @join2bk if you think this is a serious error
     """
 
     ERROR_TXT = """
@@ -238,7 +238,7 @@ Please report this at @EDM115 if you think this is a serious error
 
 `{}`
 
-Please report this at @EDM115 if you think this is a serious error
+Please report this at @join2bk if you think this is a serious error
     """
 
     CANCELLED_TXT = """
